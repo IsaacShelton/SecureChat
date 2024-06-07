@@ -26,8 +26,6 @@ endif
 
 LDFLAGS=-g
 
-# TODO: Only include objects into binaries they are required in
-
 all: test-nc keygen chat chatpriv chatd test-parser
 
 test: $(OBJECTS) $(UNIT_TEST_BINARIES)

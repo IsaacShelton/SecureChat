@@ -1,5 +1,5 @@
 
-### How processes isolation is designed
+### How process isolation is designed
 
 The server is divided into a privileged process, `chatpriv`, and unpriviledged chat processes `chatd`.
 
